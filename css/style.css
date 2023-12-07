@@ -2,13 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 body{
     font-family: 'Nunito', sans-serif;;
 }
 
-.container{
+.header{
     display: inline-block; 
     width: 70%; 
     margin-left: auto;
@@ -16,14 +17,26 @@ body{
     text-align: center;
 }
 
-.container h1{
+
+
+.header h1{
     font-weight: 900;
     color:#e53170;
     margin-bottom: 30px;
     
 }
 
-.container p{
+.header p{
     font-weight: 400;
 }
 
+.container{
+    padding-bottom: 20px;
+}
+
+.container .column{
+    width: calc(100% / 3);
+    float: left;
+    padding: 0 16px;
+
+}
