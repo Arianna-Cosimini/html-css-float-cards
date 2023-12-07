@@ -9,34 +9,67 @@ body{
     font-family: 'Nunito', sans-serif;;
 }
 
-.header{
-    display: inline-block; 
+#main{ 
     width: 70%; 
-    margin-left: auto;
-    margin-right: auto;     
+    margin: 0 auto;    
     text-align: center;
 }
 
 
 
-.header h1{
+#main h1{
     font-weight: 900;
     color:#e53170;
     margin-bottom: 30px;
     
 }
 
-.header p{
+#main p{
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
-.container{
+.row{
     padding-bottom: 20px;
 }
 
-.container .column{
-    width: calc(100% / 3);
+.row .column{
+     width: calc(100% / 3);
     float: left;
-    padding: 0 16px;
+    height: 130px;
+    /* height: 130px;
+    width: 425px; */
+    margin-bottom: 20px;
+    background-color: #0f0e17;
+    /* text-shadow: 5px 5px 10px darkblue; */
+    /* text-align: center left; */
 
 }
+
+.row .column img{
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.row .column p{
+    color: white;
+    font-size: 1.1em;
+}
+
+
+h2{
+    color:white;
+}
+
+/* a{
+    float: right;
+} */
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
