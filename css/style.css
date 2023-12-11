@@ -29,16 +29,12 @@ font-family:"Be Vietnam Pro", sans-serif;
     font-size: 12px;
 }
 
-.title{
+#main .title{
     padding: 30px 0;
 }
 
 .row{
-    /* padding-bottom: 20px; */
-}
-.column > *{
-    /* padding: ; */
-    /* padding: 10px 10px; */
+    padding-bottom: 20px;
 }
 
 .clearfix{
@@ -52,6 +48,7 @@ font-family:"Be Vietnam Pro", sans-serif;
     width: calc(100% / 3);
     float: left;
     margin-bottom: 20px;
+    padding: 10px 10px;
 
 }
 
