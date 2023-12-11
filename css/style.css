@@ -48,8 +48,12 @@ font-family:"Be Vietnam Pro", sans-serif;
     width: calc(100% / 3);
     float: left;
     margin-bottom: 20px;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
 
+}
+
+.row .column:nth-child(1n + 1){
+    padding-right: 10px;
 }
 
 .column_inner{
@@ -65,9 +69,10 @@ font-family:"Be Vietnam Pro", sans-serif;
                 -5px  5px 5px #dedede;
 }
 
-img{
-    width: 90px;
-    height: 90px;
+.column .column_inner .column-img img{
+    display: block;
+    width: auto;
+    height: 120px;
     float: left;
     margin-right: 1em;
 }
