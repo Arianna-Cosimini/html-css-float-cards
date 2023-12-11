@@ -34,10 +34,18 @@ font-family:"Be Vietnam Pro", sans-serif;
 }
 
 .row{
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
-.column{
-    padding: 10px 10px;
+.column > *{
+    /* padding: ; */
+    /* padding: 10px 10px; */
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+
 }
 
 .row .column{
@@ -47,7 +55,9 @@ font-family:"Be Vietnam Pro", sans-serif;
 
 }
 
-.column_inner{background-color: #0f0e17;
+.column_inner{
+    display: block;
+    background-color: #0f0e17;
     text-align:left;
     line-height: 25px;
     margin-bottom: 15px;
